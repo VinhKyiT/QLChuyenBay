@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QuanLyChuyenBayModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ChuyenBay">
+          <Key>
+            <PropertyRef Name="MaChuyenBay" />
+          </Key>
+          <Property Name="MaChuyenBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="SanBayDi" Type="nvarchar" MaxLength="100" />
+          <Property Name="SanBayDen" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SanBay">
+          <Key>
+            <PropertyRef Name="MaSanBay" />
+          </Key>
+          <Property Name="MaSanBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenSanBay" Type="nvarchar" MaxLength="100" />
+          <Property Name="TinhThanh" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="TuyenBay">
+          <Key>
+            <PropertyRef Name="MaTuyenBay" />
+          </Key>
+          <Property Name="MaTuyenBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="NoiDi" Type="nvarchar" MaxLength="30" />
+          <Property Name="NoiDen" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityContainer Name="QuanLyChuyenBayModelStoreContainer">
+          <EntitySet Name="ChuyenBay" EntityType="Self.ChuyenBay" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SanBay" EntityType="Self.SanBay" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TuyenBay" EntityType="Self.TuyenBay" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QuanLyChuyenBayModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ChuyenBay">
+          <Key>
+            <PropertyRef Name="MaChuyenBay" />
+          </Key>
+          <Property Name="MaChuyenBay" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SanBayDi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SanBayDen" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SanBay">
+          <Key>
+            <PropertyRef Name="MaSanBay" />
+          </Key>
+          <Property Name="MaSanBay" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenSanBay" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="TinhThanh" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TuyenBay">
+          <Key>
+            <PropertyRef Name="MaTuyenBay" />
+          </Key>
+          <Property Name="MaTuyenBay" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NoiDi" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="NoiDen" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="QuanLyChuyenBayEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ChuyenBays" EntityType="Self.ChuyenBay" />
+          <EntitySet Name="SanBays" EntityType="Self.SanBay" />
+          <EntitySet Name="TuyenBays" EntityType="Self.TuyenBay" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QuanLyChuyenBayModelStoreContainer" CdmEntityContainer="QuanLyChuyenBayEntities">
+          <EntitySetMapping Name="ChuyenBays">
+            <EntityTypeMapping TypeName="QuanLyChuyenBayModel.ChuyenBay">
+              <MappingFragment StoreEntitySet="ChuyenBay">
+                <ScalarProperty Name="MaChuyenBay" ColumnName="MaChuyenBay" />
+                <ScalarProperty Name="SanBayDi" ColumnName="SanBayDi" />
+                <ScalarProperty Name="SanBayDen" ColumnName="SanBayDen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SanBays">
+            <EntityTypeMapping TypeName="QuanLyChuyenBayModel.SanBay">
+              <MappingFragment StoreEntitySet="SanBay">
+                <ScalarProperty Name="MaSanBay" ColumnName="MaSanBay" />
+                <ScalarProperty Name="TenSanBay" ColumnName="TenSanBay" />
+                <ScalarProperty Name="TinhThanh" ColumnName="TinhThanh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TuyenBays">
+            <EntityTypeMapping TypeName="QuanLyChuyenBayModel.TuyenBay">
+              <MappingFragment StoreEntitySet="TuyenBay">
+                <ScalarProperty Name="MaTuyenBay" ColumnName="MaTuyenBay" />
+                <ScalarProperty Name="NoiDi" ColumnName="NoiDi" />
+                <ScalarProperty Name="NoiDen" ColumnName="NoiDen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

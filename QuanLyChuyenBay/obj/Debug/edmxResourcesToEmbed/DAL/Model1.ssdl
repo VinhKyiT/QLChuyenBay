@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyChuyenBayModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChuyenBay">
+    <Key>
+      <PropertyRef Name="MaChuyenBay" />
+    </Key>
+    <Property Name="MaChuyenBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="SanBayDi" Type="nvarchar" MaxLength="100" />
+    <Property Name="SanBayDen" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="SanBay">
+    <Key>
+      <PropertyRef Name="MaSanBay" />
+    </Key>
+    <Property Name="MaSanBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenSanBay" Type="nvarchar" MaxLength="100" />
+    <Property Name="TinhThanh" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="TuyenBay">
+    <Key>
+      <PropertyRef Name="MaTuyenBay" />
+    </Key>
+    <Property Name="MaTuyenBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="NoiDi" Type="nvarchar" MaxLength="30" />
+    <Property Name="NoiDen" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityContainer Name="QuanLyChuyenBayModelStoreContainer">
+    <EntitySet Name="ChuyenBay" EntityType="Self.ChuyenBay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanBay" EntityType="Self.SanBay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TuyenBay" EntityType="Self.TuyenBay" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

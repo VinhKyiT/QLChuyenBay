@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyChuyenBayModelStoreContainer" CdmEntityContainer="QuanLyChuyenBayEntities">
+    <EntitySetMapping Name="ChuyenBays">
+      <EntityTypeMapping TypeName="QuanLyChuyenBayModel.ChuyenBay">
+        <MappingFragment StoreEntitySet="ChuyenBay">
+          <ScalarProperty Name="MaChuyenBay" ColumnName="MaChuyenBay" />
+          <ScalarProperty Name="SanBayDi" ColumnName="SanBayDi" />
+          <ScalarProperty Name="SanBayDen" ColumnName="SanBayDen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanBays">
+      <EntityTypeMapping TypeName="QuanLyChuyenBayModel.SanBay">
+        <MappingFragment StoreEntitySet="SanBay">
+          <ScalarProperty Name="MaSanBay" ColumnName="MaSanBay" />
+          <ScalarProperty Name="TenSanBay" ColumnName="TenSanBay" />
+          <ScalarProperty Name="TinhThanh" ColumnName="TinhThanh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TuyenBays">
+      <EntityTypeMapping TypeName="QuanLyChuyenBayModel.TuyenBay">
+        <MappingFragment StoreEntitySet="TuyenBay">
+          <ScalarProperty Name="MaTuyenBay" ColumnName="MaTuyenBay" />
+          <ScalarProperty Name="NoiDi" ColumnName="NoiDi" />
+          <ScalarProperty Name="NoiDen" ColumnName="NoiDen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

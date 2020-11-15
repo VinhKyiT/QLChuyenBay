@@ -1,0 +1,37 @@
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csprojAssemblyReference.cache
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.exe.config
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.exe
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.pdb
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.GiaoDienChinh.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.Properties.Resources.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.SanBay.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csproj.GenerateResource.cache
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csproj.CoreCompileInputs.cache
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.exe
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.pdb
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyChuyenBay.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyTuyenBay.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.TraCuu.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.DangNhap.resources
+C:\Users\Sun\source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyCSDL.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.exe.config
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.exe
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\QuanLyChuyenBay.pdb
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.DangNhap.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.GiaoDienChinh.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.Properties.Resources.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyChuyenBay.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyCSDL.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.SanBay.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.QuanLyTuyenBay.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.TraCuu.resources
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csproj.GenerateResource.cache
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.exe
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.pdb
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2019\Source\repos\QuanLyChuyenBay\QuanLyChuyenBay\obj\Debug\QuanLyChuyenBay.csproj.CopyComplete
